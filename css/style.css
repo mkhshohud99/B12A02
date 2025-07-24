@@ -18,9 +18,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: rgb(88, 86, 86);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#active{
+    color: #000;
+}
+#active2{
+    color: #000;
 }
 .b_side img{
-    height: 20px;
+    height: 1.5rem;
 }
 .banner{
     display: flex;
@@ -30,15 +39,61 @@
 .banner_left{
     padding-right: 100px;
 }
-.banner_left h1{
+.banner_left h1 , .plant h1 ,.bg_h1{ 
     font-size: 4rem;
 }
-.banner_left h1 span{
+.banner_left h1 span , .plant h1 span{
     color: #E95A08;
 }
-.banner_left p{
+.banner_left p,.plant p, .bg_right li{
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(94, 95, 96);
+    color: rgb(112, 114, 116);
     font-size: 1.5rem;
+}
+.plant p{
+    text-align: center;
+    padding: 20px 200px;
+}
+.plant{
+    margin: 50px 150px;
+    text-align: center;
+    
+}
+.carts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+.cart h5{
+    font-size: 1.5rem;
+    margin: 10px;
+    margin-top: 30px;
+}
+.cart h3{
+    font-size: 2rem;
+    margin: 10px;
+}
+button{
+    height: 50px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    background: #E95A08;
+    border-width: 0;
+}
+.bugget{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    margin: 150px auto;
+    position: relative;
+}
+#bugget_img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: -130px;
+    left: 350px;
 }
