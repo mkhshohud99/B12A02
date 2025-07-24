@@ -1,0 +1,44 @@
+.head_nav{
+    padding: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.b_side ul{
+    display: flex;
+    gap: 15px;
+
+}
+.b_side ul li{
+    list-style: none;
+
+}
+.b_side a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.b_side img{
+    height: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 50PX 150PX;
+}
+.banner_left{
+    padding-right: 100px;
+}
+.banner_left h1{
+    font-size: 4rem;
+}
+.banner_left h1 span{
+    color: #E95A08;
+}
+.banner_left p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(94, 95, 96);
+    font-size: 1.5rem;
+}
