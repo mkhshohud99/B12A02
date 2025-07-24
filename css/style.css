@@ -4,16 +4,20 @@
     justify-content: space-between;
     margin: 50px 150px;
 }
-.b_side ul{
+.b_side_h{
     display: flex;
     gap: 15px;
 
 }
-.b_side ul li{
+.b_side ul{
+    display: flex;
+    gap: 15px;
+}
+.b_side ul li, .b_side_e li{
     list-style: none;
 
 }
-.b_side a{
+.b_side a, .footer_nav a{
     text-decoration: none;
     display: flex;
     justify-content: space-between;
@@ -22,13 +26,21 @@
     font-size: 1.5rem;
     font-weight: 400;
 }
+.b_side_e a{
+    text-decoration: none;
+    align-items: center;
+    color: rgb(88, 86, 86);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top:14px ;
+}
 #active{
     color: #000;
 }
 #active2{
     color: #000;
 }
-.b_side img{
+.b_side_e img{
     height: 1.5rem;
 }
 .banner{
@@ -45,7 +57,7 @@
 .banner_left h1 span , .plant h1 span, .deals h1 span{
     color: #E95A08;
 }
-.banner_left p,.plant p, .bg_right li, .deals p{
+.banner_left p,.plant p, .bg_right li, .deals p, .form ::placeholder, .footrt1 p{
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(112, 114, 116);
@@ -100,8 +112,8 @@ button{
 .all_deals{
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    justify-content: center;
+    gap: 100px;
+    justify-content: space-between;
     color: #fff;
     text-align: center;
 
@@ -145,4 +157,70 @@ button{
 }
 .deal_3 h4 ,.deal_3 a{
     padding-top: 100px;
+}
+.form{
+    text-align: center;
+    color: #fff;
+    background: url(/assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
+.form_text{
+    font-size: 4rem;
+}
+.form input{
+    height: 50px;
+    min-width: 650px;
+    margin-right: 0;
+}
+.sub_btn{
+    width: 80px;
+    margin-left: -5px;
+    min-height: 54px;
+    min-width: 190px;
+}
+footer{
+    margin: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer1{
+    width: 25%;
+}
+/* .footer2{
+    width: 25%;
+}
+.footer3{
+    width: 25%;
+} */
+.footer4{
+    width: 25%;
+    text-align: end;
+}
+.footer4 img{
+    margin-left: 30px;
+    height: 30px;
+}
+.footer_nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.footer_nav li{
+    list-style: none;
+}
+.footer_nav a{
+    margin: 30px 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .b_side{
+        display: none;
+    }
+    .b_side_e{
+        padding-left: 600PX;
+    }
+
 }
