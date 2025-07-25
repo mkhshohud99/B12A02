@@ -216,11 +216,126 @@ footer{
 }
 
 @media screen and (max-width: 576px) {
+    .head_nav{
+        margin: 10px 5px;
+    }
     .b_side{
         display: none;
     }
     .b_side_e{
-        padding-left: 600PX;
+        text-align: end;
+        padding-top: 20px;
     }
 
+    .banner{
+        flex-direction: column-reverse;
+        margin: 10px 5px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    .banner_left{
+        padding-right: 0;
+    }
+    .banner_left h1, .plant h1{
+        font-size: 2rem;
+    }
+    .plant {
+        margin: 10px 5px;
+    }
+    .plant p{
+        padding: 0px 0px;
+    }
+    .carts{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    }
+    .cart h5{
+    font-size: 1rem;
+    margin: 2px;
+    margin-top: 5px;
+    }
+    .cart h3{
+    font-size: 1rem;
+    margin: 2px;
+    }
+    button{
+    height: 30px;   
+    }
+    .cart img{
+        width: 100%;
+    }
+    .bugget{
+        flex-direction: column;
+    }
+    .bugget img{
+        width: 100%;
+    }
+    #bugget_img{
+        display: none;
+    }
+    .all_deals{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .cart_deals, .deal_3{
+        width: 100%;
+        gap:30px;
+    }
+    .deal_3{
+        min-height: 180px;
+        
+    }
+    .deal_3 h4 ,.deal_3 a{
+    padding-top: 0px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    }
+    .form{
+        padding: 0px;
+        padding-bottom: 50px;
+    }
+    .form_text{
+    font-size: 2rem;
+    padding-top: 50PX;
+    }
+    .form input{
+    height: 30px;
+    min-width: 200px;
+    font-size: 5px;
+    padding-top: 10PX;
+    }
+    .sub_btn{
+    margin-top: 10px;
+    min-height: 30px;
+    min-width: 100px;
+    padding-bottom: 28px;
+    padding-top: 10PX;
+    }
+    footer{
+        flex-direction: column;
+        margin: 10px 5px;
+    }
+    .footer1{
+        width: 100%;
+    }
+    .footer4{
+    width: 100%;
+    text-align: start;
+    }
+    .footer4 img{
+    margin-left: 10px;
+    height: 30px;
+    }
+    .footer_nav{
+    gap: 10px;
+    flex-direction: column;
+    align-items: start;
+    gap: 0px;
+    }
+    .footer_nav ul{
+        padding-inline-start: 0px;
+    }
+    
 }
