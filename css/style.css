@@ -129,7 +129,7 @@ button{
 }
 
 .deal_1{
-    background: url(/assets/deal-bloom.png);
+    background: url(../assets/deal-bloom.png);
     height: 180px;
     border-radius: 10px;
     font-weight: 500;
@@ -137,7 +137,7 @@ button{
     opacity: 100%;
 }
 .deal_2{
-    background: url(/assets/deal-ana.png);
+    background: url(../assets/deal-ana.png);
     height: 180px;
     border-radius: 10px;
     opacity: 100%;
@@ -145,7 +145,7 @@ button{
     font-size: 1.5rem;
 } 
 .deal_3{
-    background: url(/assets/deal-zabo.png);
+    background: url(../assets/deal-zabo.png);
     flex-grow: 1;
     width: 50%;
     background-repeat: no-repeat ;
@@ -161,7 +161,7 @@ button{
 .form{
     text-align: center;
     color: #fff;
-    background: url(/assets/news-letter-bg.png);
+    background: url(../assets/news-letter-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px;
